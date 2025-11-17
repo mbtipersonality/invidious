@@ -7,7 +7,7 @@ function App() {
 
     const randSearch = search[Math.floor(Math.random() * (1266 - 1 + 1) + 1 )]
     
-    window.location = `https://yewtu.be/search?q=${randSearch}`
+    window.location = `https://inv.nadeko.net/search?q=${randSearch}`
     
   }
   return (
