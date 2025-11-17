@@ -1,0 +1,13 @@
+.App {
+  height: 100vh;
+  background-color: #8A7803;
+  color: white;
+}
+
+.App h1 {
+  padding-top: 12.8rem;
+  font-size: 7.2rem;
+  text-align: center;
+}
+
+
