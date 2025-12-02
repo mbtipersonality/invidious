@@ -6,6 +6,11 @@ function App() {
   const handleClick = () => {
 
     const search2 = JSON.parse(localStorage.getItem('invidious'))
+
+    if(!search2){
+      localStorage.setItem('invidious', JSON.stringify(search1))
+      return
+    }
  
     const randSearch = search2[Math.floor(Math.random() * (search2.length - 1 + 1) + 1 )]
 
