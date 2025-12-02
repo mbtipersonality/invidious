@@ -4,11 +4,8 @@ import search1 from './search'
 
 function App() {
   const handleClick = () => {
-
     const search2 = JSON.parse(localStorage.getItem('invidious'))
- 
     const randSearch = search2[Math.floor(Math.random() * (search2.length - 1 + 1) + 1 )]
-
     const newInvidious = search2.filter(item => item !== randSearch)
     localStorage.setItem('invidious', JSON.stringify(newInvidious))
     
