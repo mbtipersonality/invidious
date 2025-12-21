@@ -9,7 +9,7 @@ function App() {
     const newInvidious = search2.filter(item => item !== randSearch)
     localStorage.setItem('invidious', JSON.stringify(newInvidious))
     
-    window.location = `https://invidious.f5.si/search?q=${randSearch}`
+    window.location = `https://inv.nadeko.net/search?q=${randSearch}`
     
   }
   return (
